@@ -52,3 +52,50 @@ print(a / b) # Delen -> Output: 3.333333333334 (resultaat is altijd een float)
 print(a // b) # Gehele deling -> Output: 3 (resultaat is altijd een integer)
 print(a % b) # Modulo (rest na deling) -> Output: 1
 print(a ** b) # Machtsverheffing -> Output: 1000
+
+import math
+pi = math.pi
+straal = 7
+oppervlakte = (pi * straal * straal)
+print(f"De oppervlakte is {oppervlakte}.")
+
+naam = "Lina"
+leeftijd = 16
+favoriete_vakantiebestemming = "Oostenrijk"
+print(f"Mijn naam is {naam}, ik ben {leeftijd} jaar en ik ga graag op vakantie naar {favoriete_vakantiebestemming}.")
+
+is_python_leuk = True
+is_programmeren_moeilijk = False
+print(type(is_python_leuk)) # Output: <class 'bool'>
+
+x = 5 # Assignment
+y = 5 # Assignment
+print(x == y) # Vergelijking
+print(x != y) # Vergelijking
+print(x <= y) 
+
+getal_als_string = "123"
+getal = int(getal_als_string)
+print(getal + 5) # Output: 128
+
+kommagetal = 3.14159
+afgerond_getal = int(kommagetal)
+print(afgerond_getal) # Output: 3
+
+leeftijd = 25
+leeftijd_als_tekst = str(leeftijd)
+print("Ik ben " + leeftijd_als_tekst + " jaar oud.") # Output: Ik ben 25 jaar oud.
+
+naam = input("Wat is je naam? ")
+print(f"Hallo, {naam}!")
+
+leeftijd = input("Wat is je leeftijd? ")
+leeftijd = int(leeftijd) # Converteren naar een integer
+print(f"Volgend jaar ben je {leeftijd + 1} jaar oud.")
+
+getal1 = input("Geef een eerste geheel getal. ")
+getal_1 = int(getal1)
+getal2 = input("Geef een tweede geheel getal. ")
+getal_2 = int(getal2)
+som = getal_1 + getal_2
+print(f"De som van deze 2 getallen is {som}.")
