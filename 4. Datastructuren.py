@@ -47,3 +47,41 @@ for rij in matrix:
 
 for i in range(5):
     print(i)
+
+woorden = ["appel", "banaan", "kers"]
+
+for i in range(len(woorden)):
+    print(f"Index {i}: {woorden[i]}")
+
+woord = "Python"
+for karakter in woord:
+    print(karakter)
+
+woord_2 = "Pyhton"
+for i in range(len(woord_2)):
+    print(f"Positie {i}: {woord[i]}")
+
+getallen = [1, 2, 3, 4]
+kwadraten = []
+
+for num in getallen:
+    kwadraten.append(num ** 2)
+
+print(kwadraten) # Output: [1, 4, 9, 16]
+
+getallen = [1, 2, 3, 4, 5, 6]
+even_getallen = []
+
+for num in getallen:
+    if num % 2 == 0:
+        even_getallen.append(num)
+
+print(even_getallen) # Output: [2, 4, 6]
+
+getallen_2 = [1, 2, 3, 4, 5]
+som = 0
+
+for num in getallen:
+    som += num
+
+print(som)
