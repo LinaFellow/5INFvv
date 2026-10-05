@@ -21,12 +21,14 @@ gemiddelde_cijfer = som / aantal_studenten
 print(f"Het gemiddelde cijfer is {gemiddelde_cijfer}.")
 
 
-for i in range(0, aantal_studenten):
+boven_gemiddelde = []
+for i in range(aantal_studenten):
     cijfer = cijfers[i]
     if cijfer > gemiddelde_cijfer:
-        print(f"{namen[1]} scoorde boven het gemiddelde.") # nog fout
+        boven_gemiddelde.append(namen[i])
+        print(f"{namen[i]} scoorde boven het gemiddelde.") # nog fout
         
-
+print(f"Leerlingen die boven het gemiddelde scoorden: {boven_gemiddelde}")
 
 
 
