@@ -56,6 +56,7 @@ for beurt in range(1000):
         elif keuze == "5":
             afgesloten = True # De volgende ronde doet niets meer.
             print("Tot ziens :)")
+            break
 
         else:
             print("Je hebt een ongeldige keuze ingegeven. Voer a.u.b. een keuze in van 1 t.e.m. 5 in.")
